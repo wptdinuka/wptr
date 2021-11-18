@@ -1,0 +1,63 @@
+.container {
+  padding: 0 2rem;
+}
+
+.main {
+  min-height: 100vh;
+  padding: 4rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  display: flex;
+  flex: 1;
+  padding: 2rem 0;
+  border: black 3px solid;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.title a {
+  text-decoration: none;
+  border: black 4px solid;
+  padding: 15px 265px;
+}
+
+.title {
+  height: 200px;
+  margin-top: 50px;
+  line-height: 1.15;
+  font-size: 5rem;
+}
+
+.title,
+.description {
+  text-align: center;
+}
+
+.description {
+  margin: 4rem 0;
+  line-height: 1.5;
+  font-size: 1.5rem;
+}
+
+.grid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 800px;
+}
+
+@media (max-width: 600px) {
+  .grid {
+    width: 100%;
+    flex-direction: column;
+  }
+}
