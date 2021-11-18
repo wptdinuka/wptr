@@ -19,7 +19,7 @@ export const Navbar = () => {
                 <li>
                     <Link href='/healthy'>Healthy</Link>
                 </li>
-                <li>
+                <li className='last-item'>
                     <Link href='/snacks'>Snacks</Link>
                 </li>
             </ul>

@@ -97,8 +97,39 @@ ol {
   line-height: 2.3;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 800px) and (min-width: 501px) {
   .posts {
     grid-template-columns: 1fr;
+  }
+
+  .navbar {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 10px;
+    margin-top: 30px;
+    font-size: 20px;
+
+    li {
+      border: none;
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .posts {
+    grid-template-columns: 1fr;
+  }
+
+  .navbar {
+    display: grid;
+    margin-top: 30px;
+
+    li {
+      border-bottom: black solid 1px;
+      border-left: none;
+    }
+    .last-item {
+      border-bottom: none;
+    }
   }
 }
