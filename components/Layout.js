@@ -6,7 +6,7 @@ const Layout = ({children}) => {
     return (
         <div className={styles.container}>
             <h1  className={styles.title}>
-                <a href="/" >
+                <a Link="/" >
                 WPT RECIPE
                 </a>
                 </h1>
